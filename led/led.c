@@ -1,6 +1,6 @@
 #include "led.h"
 
-typedef struct led_info
+typedef struct
 {
     uint32_t RCC_APB2Periph;
     GPIO_TypeDef* GPIOx;
